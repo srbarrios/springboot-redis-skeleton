@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>mybackend</application><!-- unused for Cloud SDK based tooling -->
+    <version>alpha-001</version><!-- unused for Cloud SDK based tooling -->
+    <threadsafe>true</threadsafe>
+    <runtime>java8</runtime>
+    <vpc-access-connector>
+        <name>projects/srbarrios_mybackend/locations/[REGION]/connectors/[CONNECTOR_NAME]</name>
+    </vpc-access-connector>
+</appengine-web-app>

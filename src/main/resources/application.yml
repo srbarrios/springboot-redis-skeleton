@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: srbarrios_mybackend
+server:
+  port: 9090
+redis:
+  hostname: 127.0.0.1
+  port: 6379
+  password: test
